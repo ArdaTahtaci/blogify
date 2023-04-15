@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const apiEndPoint = "https://blogify-backend.onrender.com/posts/"
+const apiEndPoint = "https://blogify-backend-rai5.onrender.com/posts/"
 
 export const fetchPosts = async () => await axios.get(apiEndPoint)
 
